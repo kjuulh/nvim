@@ -1,6 +1,6 @@
 " vim:foldmethod=marker:foldlevel=0
 
-" vim-plug {{{
+" Plugins {{{
 call plug#begin()
 
 " color scheme
@@ -9,6 +9,9 @@ Plug 'joshdick/onedark.vim'
 " better statuslone
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
+
+" Autocompletion
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 call plug#end()
 
